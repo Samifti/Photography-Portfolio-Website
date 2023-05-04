@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head >
+      <title>Feedback</title>
+	  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <div class="header">
+         <div class="nav-container">
+            <div class="logo">
+              <img src="img/logo.png" alt="skyshotslogo" width="130"/>
+            </div>
+            <nav>
+               <ul>
+                  <li><a  href="index.html">Home</a></li>
+                  <li><a href="sky.html">Sky</a></li>
+                  <li><a href="Nature.html">Nature</a></li>
+                  <li><a href="street.html">Street</a></li>
+                  <li><a class="current" href="contact.html">Feedback</a></li>
+                
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="banner-image-feedback banner-st">
+	   <div class="banner-text">
+            <h2  class="heading1">Feedback</h2>
+         </div>
+      </div>
+      
+      <div class="form-container feed-background-image" >
+        <article>
+        <form name="feedback" action="mailto:osamaifti@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend><h4>Your Feedback matters</h4></legend>
+            <table class="tg">
+                <thead>
+                <tr>
+                    <td class="tg-0lax">Full Name</td>
+                    <td class="tg-0lax"><input type="text" id="fname" name="firstname" placeholder="Your name.."></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tg-0lax">Email ID</td>
+                    <td class="tg-0lax"><input type="email" id="email" name="mailid" placeholder="Your mail ID.."></td>
+                </tr>
+                <tr>
+                    <td class="tg-tf2e">Gender</td>
+                    <td class="tg-tf2e">
+                        <select id="gender" name="gender">
+                            <option value="none">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>   
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Date of Feedback</td>
+                    <td class="tg-0lax">
+                    <input type="date" id="date" name="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-tf2e">Was the website helpful?</td>
+                    <td class="tg-tf2e">
+                        <div class="radio-buttons">
+                        <input type="radio" id="yes" name="useful" value="Yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="useful" value="No">
+                        <label for="no">No</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax" colspan="2">Any suggestions for improvements?</td>
+                </tr>
+                <tr>
+                    <td class="tg-tf2e" colspan="2">
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        </form>
+    </article>
+        
+      </div>
+      <footer>
+         <div class="footer-conatiner">
+            <p>   © Skyshots   <a href="about.html" title="About me">Osama Iftikhar</a>  | Last updated: 06/07/2021</p>
+         </div>
+      </footer>
+   </body>
+</html>
